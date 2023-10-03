@@ -1,0 +1,80 @@
+/* Events.css */
+
+.Events--container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Events--header {
+    margin-bottom: 20px;
+  }
+  
+  .Events--header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .Events--header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .Events--event-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .Events--event {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .Events--event h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .Events--event p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .Events--event-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .Events--register-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .Events--register-button:hover {
+    background-color: #0056b3;
+  }
+
+  
+  @media (max-width: 768px) {
+    .Events--event {
+      max-width: 100%;
+    }
+  }
+  
